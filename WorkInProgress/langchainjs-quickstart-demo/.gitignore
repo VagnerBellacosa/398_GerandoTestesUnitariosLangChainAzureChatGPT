@@ -1,0 +1,22 @@
+# Compiled output
+node_modules/
+dist/
+.tmp/
+
+# Logs
+logs
+*.log
+
+# Deployment
+*.env
+.azure
+
+# Misc
+.DS_Store
+faiss_store
+
+# Azure Functions artifacts
+bin
+obj
+appsettings.json
+local.settings.json

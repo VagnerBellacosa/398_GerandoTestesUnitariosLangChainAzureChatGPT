@@ -1,0 +1,34 @@
+{
+  "name": "langchainjs-quickstart-demo",
+  "version": "1.0.0",
+  "description": "Generative AI demo using Azure Functions and LangChain.js",
+  "private": true,
+  "type": "module",
+  "main": "src/functions/*.js",
+  "scripts": {
+    "start": "func start",
+    "start:local": "node src/local.js",
+    "start:azure": "node src/azure.js"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Yohan Lasorsa",
+    "url": "https://twitter.com/sinedied"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@azure/functions": "^4.3.0",
+    "@azure/search-documents": "^12.0.0",
+    "@langchain/community": "^0.3.22",
+    "@langchain/ollama": "^0.1.4",
+    "@langchain/openai": "^0.3.16",
+    "dotenv": "^16.4.4",
+    "faiss-node": "^0.5.1",
+    "langchain": "^0.3.10",
+    "youtube-transcript": "^1.2.1",
+    "youtubei.js": "^12.2.0"
+  },
+  "devDependencies": {
+    "azure-functions-core-tools": "^4.0.5530"
+  }
+}
